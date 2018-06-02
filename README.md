@@ -1,6 +1,6 @@
 # Docker quick  commands
 
-![Docker](./docker.png)
+![Docker](https://raw.githubusercontent.com/ederssouza/docker-quick-commands/master/images/docker.png)
 
 ## Get Started
 
@@ -199,7 +199,7 @@ $ cd /Users/edersampaio/docker-node-sample
 $ docker run -it -p 3000:3000 -v "$(pwd):/var/www" -w "/var/www" node:9.11.1-alpine npm start
 ```
 
-![I love Docker](./02.png)
+![I love Docker](https://raw.githubusercontent.com/ederssouza/docker-quick-commands/master/images/02.png)
 
 ## Dockerfile
 
@@ -280,7 +280,7 @@ Login Succeeded
 $ docker push ederssouza/node-alpine
 ```
 
-![Docker Hub](./03.png)
+![Docker Hub](https://raw.githubusercontent.com/ederssouza/docker-quick-commands/master/images/03.png)
 
 ### Downloading image of Docker Hub
 
