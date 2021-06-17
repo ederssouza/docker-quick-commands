@@ -153,6 +153,7 @@ $ docker port CONTAINER_ID
 
 
 ```bash
+# 8080:80 => MY_LOCAL_PORT:DOCKER_CONTAINER_PORT
 $ docker run -d -p 8080:80 --name site-sample dockersamples/static-site
 $ docker port 08e0b419d760
 
